@@ -1,0 +1,419 @@
+
+.green-bgd {
+background: linear-gradient(0deg, #2ca833, #006f34 );
+box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.8);
+position: fixed;
+width: 100%;
+z-index: 10;
+
+}
+
+.logo {
+    display: block;
+    padding: 10px 0;
+}
+
+.main-menu {
+    display: flex;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    justify-content: flex-end;
+    padding-right: 0;
+}
+
+.main-menu--item {
+    display: inline-block;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.main-menu--link {
+    display: block;
+font-family: "Montserrat";
+font-weight: 700;
+font-size: 13px;
+color: #fff;
+padding: 25px 0;
+text-transform: uppercase;
+}
+
+.main-menu--item:hover {
+background: linear-gradient(0deg, #bb6e2c, #ffa52c,  #bb6e2c);
+
+}
+
+.main-menu--item:hover .main-menu--link{
+text-decoration: none;
+color: #fff;
+}
+
+.submenu {
+    /* display: block; */
+    margin: 0;
+    padding: 0;
+    min-width: 120%;
+    list-style: none;
+    position: absolute;
+    left: 0;
+    background: linear-gradient(0deg, #bb6e2c, #ffa52c,  #bb6e2c);
+    visibility: hidden;
+    opacity: 0;
+    transition: linear 0.3s;
+
+}
+
+.submenu-link {
+    display: block;
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 13px;
+    color: #fff;
+    padding: 8px 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.submenu-link:hover {
+    background: linear-gradient(0deg, #2ca833, #006f34 );
+    color: #fff;
+    text-decoration: none;
+}
+
+.main-menu--item:hover .submenu {
+    visibility: visible;
+    opacity: 1;
+
+}
+
+
+.section-carusel {
+    background-image: url(../img/pictures/kitchen/granola.png);
+background-position-x: center;
+
+
+}
+
+.carusel-product {
+    height: 320px;
+    padding-top: 175px;
+    padding-bottom: 60px;
+
+    width: 100%;
+
+}
+
+.carusel-information {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    max-height: 100px;
+    background-color: #f8a93c;
+    opacity: 0.85;
+    margin-top: 105px;
+}
+
+.carusel-head {
+    display: block;
+    font-family: "Montserrat";
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 1;
+    text-transform: uppercase;
+    color: #fff;
+    padding-top: 15px;
+    padding-right: 20px;
+}
+
+.carusel-text {
+    display: block;
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-size: 18px;
+    font-style: italic;
+    text-transform: uppercase;
+    color: #fff;
+    padding-right: 20px;
+}
+.carusel-heith {
+    height: 430px;
+}
+
+.carusel-btn {
+    display: block;
+    background-color: #006f34;
+    opacity: 0.9;
+    color: #fff;
+    font-family: "Roboto";
+    font-weight: 700;
+    font-style: italic;
+    text-transform: uppercase;
+    font-size: 12px;
+    padding: 10px 25px;
+    border: 2px solid #bb6e2c;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.carusel-btn:hover {
+    background-color: #f8a93c;
+}
+
+.brands-title {
+    font-family: "Montserrat";
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 40px;
+    color: #006f34;
+    text-align: center;
+    padding-top: 35px;
+    text-transform: uppercase;
+}
+
+.brands-title {
+    overflow: hidden;
+}
+
+.brand-line::before,
+.brand-line::after {
+    display: block;
+    content: '';
+    height: 2px;
+    background-color: #006f34;
+}
+
+.about-line::before,
+.about-line::after {
+    display: block;
+    content: '';
+    height: 2px;
+    background-color: #fff;
+}
+
+.promo-line::before,
+.promo-line::after {
+    display: block;
+    content: '';
+    height: 2px;
+    background-color: #de0404;
+}
+
+
+.list-of-brands {
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.brand-img {
+    display: flex;
+    height: 120px;
+    align-items: center;
+}
+
+.img {
+display: block;
+margin: auto auto;
+}
+
+.brand-text {
+    font-family: "Roboto";
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #006f34;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.brand-shadow:hover {
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.8);
+}
+
+.text-white {
+    color: #fff;
+}
+
+.section-about {
+    background-color: #239d33;
+}
+
+.about-area {
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+.text-red {
+    color: #de0404;
+}
+
+.promo-img {
+    display: flex;
+    height: 230px;
+    align-items: center;
+}
+
+.promo-item {
+    display: block;
+    position: relative;
+    max-width: 220px;
+    height: 300px;
+    border: 2px solid #de0404;
+    border-radius: 15px;
+    overflow: hidden;
+    margin: 0 auto
+}
+
+/* .promo-text-area {
+    display: block;
+    max-width: 220px;
+    height: 70px;
+    background-color: #de0404;
+} */
+
+.promo-img::before {
+    display: block;
+    position: absolute;
+    z-index: 3;
+    content: '';
+    height: 50px;
+    width: 100px;
+    background-image: url(../img/logos/Silpo-logo.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    left: 10px;
+    top: 10px;
+}
+
+.promo-info {
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: 0px;
+    width: 100%;
+    height: 70px;
+    background-color: #de0404;
+    z-index: 5;
+    transition: ease-in 0.5s;
+}
+
+.promo-item:hover .promo-info{
+    height: 100%;
+}
+
+.promo-discount {
+    font-family: "Montserrat";
+    font-weight: 900;
+    font-size: 60px;
+    color: #fff;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.promo-bottom {
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+
+.section-kitchen {
+    background-image: url(../img/pictures/kitchen/wood-bgd-2.jpg);
+}
+
+
+.kitchen-item {
+    display: block;
+    position: relative;
+    max-width: 250px;
+    height: 300px;
+    border: 2px solid #239d33;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.kitchen-img {
+    display: flex;
+    height: 230px;
+    align-items: center;
+}
+
+.kitchen-info {
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: 0px;
+    width: 100%;
+    height: 70px;
+    background-color: #239d33;
+    z-index: 5;
+    transition: ease-in 0.5s;
+}
+
+.kitchen-item:hover .kitchen-info{
+    height: 100%;
+}
+
+.size-img {
+    width: 100%;
+    /* height: auto;
+    position: absolute;
+    left: -15%; */
+
+}
+
+.kitchen-description {
+    font-family: "Roboto";
+    font-weight: normal;
+    font-size: 14px;
+    text-align: center;
+    color: #fff;
+    padding-top: 30px;
+}
+
+.kitchen-btn {
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 16px;
+    background-color: #239d33;
+    padding: 10px 25px;
+    border: 2px solid #239d33;
+    cursor: pointer;
+    color: #fff;
+    border-radius: 8px;
+}
+.kitchen-btn-pos {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 40px;
+}
+
+.kitchen-btn:hover {
+    background-color: #fff;
+    color: #239d33;
+}
+
+.foot {
+    background: linear-gradient(180deg, #2ca833, #006f34 );
+}
+
+.adress {
+    font-family: "montserrat";
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+}
+
+.copyright {
+    font-family: "montserrat";
+    color: #fff;
+    font-size: 14px;
+}
+.mail {
+    font-family: "montserrat";
+    text-align: right;
+    color: #fff;
+    font-size: 14px;
+}
